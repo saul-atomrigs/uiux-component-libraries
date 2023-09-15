@@ -1,9 +1,12 @@
 {
   "name": "project-name",
-  "private": true, 
+  "private": true,
   "version": "1.0.0",
   "license": "MIT",
   "workspaces": [
-    "react/*"
-  ]
+    "*/"
+  ],
+  "dependencies": {
+    "framer-motion": "^10.16.4"
+  }
 }
