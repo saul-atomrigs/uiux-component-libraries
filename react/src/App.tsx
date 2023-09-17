@@ -1,7 +1,8 @@
-import { useState } from "react";
-import styled from '@emotion/styled'
-import SwipeablePlaylist from "./swipeable-playlist";
-import {playlist} from "./swipeable-playlist/data";
+import { useState } from 'react';
+import styled from '@emotion/styled';
+import SwipeablePlaylist from './swipeable-playlist';
+import { playlist } from './swipeable-playlist/data';
+import DropDown from './dropdown';
 
 const Box = styled.div`
   width: 100vw;
@@ -21,10 +22,11 @@ function App() {
   };
 
   return (
-    <Box>
-      <SwipeablePlaylist playlist={myPlaylist} onRequestDelete={handleDelete} />
-    </Box>
-  )
+    <>
+      {/* <SwipeablePlaylist playlist={myPlaylist} onRequestDelete={handleDelete} /> */}
+      <DropDown />
+    </>
+  );
 }
 
 export default App;
