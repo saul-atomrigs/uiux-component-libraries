@@ -14,7 +14,7 @@ const Box = styled.div`
   overflow: hidden;
 `;
 
-function App() {
+export default function App() {
   const [myPlaylist, setMyPlaylist] = useState(playlist);
 
   const handleDelete = (id: number) => {
@@ -28,5 +28,3 @@ function App() {
     </>
   );
 }
-
-export default App;
