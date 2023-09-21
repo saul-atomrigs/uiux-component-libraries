@@ -1,6 +1,9 @@
 # Dropdown
+## 💡 구현 결과
+![ezgif com-video-to-gif](https://github.com/saul-atomrigs/uiux-component-libraries/assets/82362278/f5fd90ba-04fb-4a63-9b3f-a0ad22771790)
 
-## 개발 포인트
+
+## 💡 개발 포인트
 
 ### [이슈] 자식 엘리먼트인 <Content> 를 클릭하면 '이벤트 전파 (event propagation)' 때문에 부모 컴포넌트인 <Layer> 도 영향을 받음
 - [해결1] stopPropagation()을 사용해 이벤트 전파를 제어할 수 있다
