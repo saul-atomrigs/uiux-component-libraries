@@ -1,5 +1,5 @@
 # Swipeable-list
-## 데모 영상
+## 💡 데모 영상
 [screen-capture.webm](https://github.com/saul-atomrigs/uiux-component-libraries/assets/82362278/ed70be43-2e71-49b5-bbed-0ea5c74eb122)
 
 ---
