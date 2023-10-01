@@ -36,7 +36,7 @@ ToggleBox라는 컴포넌트는 메시지와 두 개의 div 요소로 구성된 
 ```
   const [isOn, setisOn] = useState(false);
 ```
-The component uses the useState hook to manage the state of the toggle switch. The initial state is set to false. (이 컴포넌트는 useState 훅을 사용하여 토글 스위치의 상태를 관리합니다. 초기 상태는 false로 설정됩니다.)
+The component uses the useState hook to manage the state of the toggle switch. The initial state is set to false. (useState 훅을 사용하여 토글 스위치의 상태를 관리합니다. 초기 상태는 false로 설정됩니다.)
 
 ```
   const toggleHandler = () => {
@@ -59,4 +59,4 @@ When the user clicks on the toggle switch, the `toggleHandler` function is calle
     </ToggleBoxContainer>
   );
 ```
-The component returns JSX that represents the toggle switch UI. The isOn state is used to conditionally apply CSS classes to the div elements, changing their appearance based on whether the toggle switch is on or off. (컴포넌트는 토글 스위치 UI를 나타내는 JSX를 반환합니다. isOn 상태는 div 요소에 CSS 클래스를 조건부로 적용하여 토글 스위치의 상태에 따라 모양을 변경합니다.)
+The component returns JSX that represents the toggle switch UI. The isOn state is used to conditionally apply CSS classes to the div elements, changing their appearance based on whether the toggle switch is on or off. (토글 스위치 UI를 나타내는 JSX를 반환합니다. isOn 상태는 div 요소에 CSS 클래스를 조건부로 적용하여 토글 스위치의 상태에 따라 모양을 변경합니다.)
