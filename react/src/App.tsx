@@ -1,9 +1,10 @@
-// import { useState } from 'react';
+import { useState } from 'react';
 import styled from '@emotion/styled';
-// import SwipeablePlaylist from './swipeable-playlist';
-// import { playlist } from './swipeable-playlist/data';
-// import DropDown from './dropdown';
+import SwipeablePlaylist from './swipeable-playlist';
+import { playlist } from './swipeable-playlist/data';
+import DropDown from './dropdown';
 import ToggleBox from './toggle';
+import Terminal from './terminal';
 
 const Box = styled.div`
   width: 100vw;
@@ -17,17 +18,18 @@ const Box = styled.div`
 `;
 
 export default function App() {
-  // const [myPlaylist, setMyPlaylist] = useState(playlist);
+  const [myPlaylist, setMyPlaylist] = useState(playlist);
 
-  // const handleDelete = (id: number) => {
-  //   setMyPlaylist(myPlaylist.filter((music) => music.id !== id));
-  // };
+  const handleDelete = (id: number) => {
+    setMyPlaylist(myPlaylist.filter((music) => music.id !== id));
+  };
 
   return (
-    <Box>
+    <>
       {/* <SwipeablePlaylist playlist={myPlaylist} onRequestDelete={handleDelete} /> */}
       {/* <DropDown /> */}
-      <ToggleBox />
-    </Box>
+      {/* <ToggleBox /> */}
+      <Terminal />
+    </>
   );
 }
