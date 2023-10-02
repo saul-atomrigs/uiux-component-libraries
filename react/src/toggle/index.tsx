@@ -30,7 +30,7 @@ const ToggleBoxContainer = styled.div`
   border-radius: 0.5rem;
 `;
 
-const Message = styled.text`
+const Message = styled.div`
   color: #999;
   font-family: Pretendard;
   font-size: 1rem;
