@@ -16,7 +16,7 @@ const Box = styled.div`
   padding: 1rem;
 `;
 
-function App() {
+export default function App() {
   // const [myPlaylist, setMyPlaylist] = useState(playlist);
 
   // const handleDelete = (id: number) => {
