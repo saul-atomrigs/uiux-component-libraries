@@ -1,7 +1,6 @@
-# Swipeable-list
-## 💡 데모 영상
-[screen-capture.webm](https://github.com/saul-atomrigs/uiux-component-libraries/assets/82362278/ed70be43-2e71-49b5-bbed-0ea5c74eb122)
+# React-swipeable-list
+## 💡 구현 결과 Demo
+![ezgif com-crop (1)](https://github.com/saul-atomrigs/uiux-component-libraries/assets/82362278/20d7a3b0-a032-4f0d-a755-fe09c35ed80a)
+
 
 ---
-- [참조] https://velog.io/@sangpok/React-Swipeable-ListItem
-- [참조] https://www.framer.com/motion/reorder/
