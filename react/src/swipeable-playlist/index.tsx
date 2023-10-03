@@ -1,29 +1,35 @@
 import { useEffect, useState } from 'react';
-import { ListBox } from './styled';
-import ListItem from './ListItem';
 import { AnimatePresence } from 'framer-motion';
-import type { MusicItem } from './types';
 
-type SwipeablePlaylistProp = {
-  playlist: Array<MusicItem>;
-  onRequestDelete: (id: number) => void;
-};
+import { Box, ListBox } from './styled';
+import ListItem from './ListItem';
+import { playlist } from './data';
 
-const SwipeablePlaylist = ({ playlist, onRequestDelete }: SwipeablePlaylistProp) => {
+const SwipeablePlaylist = () => {
   const [playlistData, setPlaylistData] = useState(playlist);
+
+  const handleDelete = (id: number) => {
+    setPlaylistData(playlistData.filter((music) => music.id !== id));
+  };
 
   useEffect(() => {
     setPlaylistData([...playlist]);
   }, [playlist]);
 
   return (
-    <ListBox axis="y" values={playlistData} onReorder={setPlaylistData}>
-      <AnimatePresence>
-        {playlistData.map((value) => (
-          <ListItem key={value.id} value={value} onRequestDelete={onRequestDelete} />
-        ))}
-      </AnimatePresence>
-    </ListBox>
+    <Box>
+      <ListBox axis='y' values={playlistData} onReorder={setPlaylistData}>
+        <AnimatePresence>
+          {playlistData.map((value) => (
+            <ListItem
+              key={value.id}
+              value={value}
+              onRequestDelete={handleDelete}
+            />
+          ))}
+        </AnimatePresence>
+      </ListBox>
+    </Box>
   );
 };
 
