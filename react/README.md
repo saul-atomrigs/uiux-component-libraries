@@ -1,3 +1,3 @@
 # React component libraries
 ## Toggle
-![ezgif com-crop](https://github.com/saul-atomrigs/uiux-component-libraries/assets/82362278/feca342a-5e74-47d9-a734-9714a0aa3f7f)
+![ezgif com-crop (1)](https://github.com/saul-atomrigs/uiux-component-libraries/assets/82362278/ac08b89a-bca6-49e9-9260-bb7fcab2eaa2)
