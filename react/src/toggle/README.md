@@ -1,7 +1,8 @@
 # React Toggle
 
-## Demo
-![ezgif com-crop](https://github.com/saul-atomrigs/uiux-component-libraries/assets/82362278/571ac40c-0938-4fa1-ac24-2aed0b1053b7)
+## 구현 결과 Demo
+![ezgif com-crop (1)](https://github.com/saul-atomrigs/uiux-component-libraries/assets/82362278/a0cb72fb-7a7e-43a4-91d9-6bcff585bc61)
+
 
 ## Use cases
 ![Binance iOS 11](https://github.com/saul-atomrigs/uiux-component-libraries/assets/82362278/10324780-5761-4f97-9bc8-8c3be790fceb)
