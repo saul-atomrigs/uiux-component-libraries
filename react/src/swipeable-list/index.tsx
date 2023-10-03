@@ -13,8 +13,8 @@ export default function SwipeableList() {
   };
 
   useEffect(() => {
-    setPlaylistData([...playlist]);
-  }, [playlist]);
+    setPlaylistData([...playlistData]);
+  }, [playlistData]);
 
   return (
     <Box>
