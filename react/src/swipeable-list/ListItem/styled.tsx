@@ -8,13 +8,13 @@ const Container = styled(motion.div)`
   height: 64px;
   background: #2b2b2b;
   user-select: none;
-  `;
+`;
 
 const SwipeableContainer = styled(motion.div)`
   position: relative;
   width: 100%;
   height: 100%;
-  `;
+`;
 
 const ListItemInner = styled(Reorder.Item)`
   gap: 12px;
@@ -30,7 +30,7 @@ const ListItemInner = styled(Reorder.Item)`
 const ListItemContent = styled.div`
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 18px;
   width: 100%;
   height: 100%;
 `;
@@ -60,6 +60,7 @@ const Title = styled.p`
   font-weight: bold;
   color: white;
   width: 100%;
+  margin-bottom: 0;
 
   display: -webkit-box;
   -webkit-box-orient: vertical;
