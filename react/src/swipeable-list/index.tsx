@@ -5,7 +5,7 @@ import { Box, ListBox } from './styled';
 import ListItem from './ListItem';
 import { playlist } from './data';
 
-const SwipeablePlaylist = () => {
+export default function SwipeableList() {
   const [playlistData, setPlaylistData] = useState(playlist);
 
   const handleDelete = (id: number) => {
@@ -31,6 +31,4 @@ const SwipeablePlaylist = () => {
       </ListBox>
     </Box>
   );
-};
-
-export default SwipeablePlaylist;
+}
